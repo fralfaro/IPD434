@@ -83,11 +83,9 @@ target/
 # Slides/HTML exportados con nbconvert
 *.slides.html
 Clases/**/*.html
-# PDFs exportados desde los .ipynb.
-# Se conservan los PDF de referencia (Material/, **/Sources/) y de assets (**/images/).
+# PDFs dentro de Clases/ (exportados desde los .ipynb o material auxiliar).
+# Los papers de referencia viven en Material/ (fuera de Clases/) y sí se versionan.
 Clases/**/*.pdf
-!Clases/**/images/**
-!Clases/**/Sources/**
 # Checkpoints de modelos (TensorFlow/Keras) — se regeneran al ejecutar, no versionar
 Clases/**/cp.ckpt.*
 Clases/**/05-1_DeepReninforcementLearning/checkpoint
