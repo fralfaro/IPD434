@@ -1,0 +1,21 @@
+# Comunes
+numpy
+pandas
+matplotlib
+jupyter
+
+# Pregunta 1: Logica Difusa
+scikit-fuzzy
+
+# Pregunta 2: Computacion Evolutiva (TSTP con DEAP)
+deap
+networkx
+tsplib95
+
+# Pregunta 3: Redes Neuronales (clasificacion de insectos)
+# Elegir UNA de las dos (no se deben usar ambas en el mismo trabajo):
+#tensorflow
+torch
+torchvision
+pillow
+scikit-learn
